@@ -1,0 +1,40 @@
+.menu {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+  color: brown;
+  text-decoration:overline;
+}
+
+.menu h3:nth-child(odd):hover {
+  color: green;
+  /* transform: scaleY(2); */
+  transform: rotate(720deg);
+  transition-duration: 2s;
+}
+
+.menu h3:nth-child(even):hover {
+  color: green;
+  /* transform: scaleY(2); */
+  transform: rotate(-720deg);
+  transition-duration: 2s;
+}
+
+p {
+  text-align: center;
+}
+
+select {
+  background-color:burlywood;
+  border: 2px dotted orangered;
+}
+
+button:nth-child(1) {
+  margin-left: 1111px;
+}
+
+button {
+  border: 1px solid red;
+  background-color: yellow;
+}
